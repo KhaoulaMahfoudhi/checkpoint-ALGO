@@ -1,0 +1,24 @@
+algorithm  sentence;
+
+VAR
+Tx: String;
+T,NbC, NbM,NbV,I : INTEGER;
+
+BEGIN
+
+Write('give a  sentence');
+Read(Tx);
+Nbc := 0; NbM := 0; NbV := 0; I := 1;
+WHILE I<= N;
+DO IF Tx[I]= " ";
+THEN I := I+1;
+ELSE WHILE (I := N) et (Tx[I] <>  " ") et (Tx[I] <>  ".")
+DO NbC := NbC +1 ; I :=I+1; DO;
+NbM:= NbM + 1
+IF Tx[I]== "o" or "a" or "i" or "e" or "u";
+THEN NbV := NbV +1 END_IF;
+END_IF;
+
+Write ("number of characters:" NbC "number of words= " NbM "number of vowels = " NbV);
+
+END
